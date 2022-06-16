@@ -15,4 +15,4 @@
         maven:
           build: "/home/avasekho/maven"
           volumes:
-            - /tmp/shared_folder:/shared_folder:rw
+            - {{ prod_server }}/tmp/shared_folder:/shared_folder:rw

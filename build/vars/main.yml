@@ -1,2 +1,3 @@
 ---
 # vars file for build
+build_server: 51.250.22.23

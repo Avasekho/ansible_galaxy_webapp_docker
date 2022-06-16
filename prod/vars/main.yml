@@ -2,4 +2,4 @@
 # vars file for prod
 src_path: /tmp/shared_folder
 dest_path: /tmp/shared_folder
-build_server: 178.154.192.154
+build_server: 51.250.22.23

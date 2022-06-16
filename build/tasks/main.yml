@@ -10,7 +10,7 @@
   docker_compose:
     project_name: maven
     definition:
-      version: '2'
+      version: '3'
       services:
         maven:
           build: "/home/avasekho/maven"

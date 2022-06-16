@@ -3,6 +3,7 @@
 - name: ensure docker is installed
   apt:
     name:
+      - python3-pip
       - docker
       - docker-compose
     state: present

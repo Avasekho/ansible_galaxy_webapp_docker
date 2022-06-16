@@ -1,6 +1,6 @@
 ---
 # tasks file for docker_install
 - name: Install Docker Module for Python
-      pip:
-        name: docker
+    pip:
+      name: docker
 

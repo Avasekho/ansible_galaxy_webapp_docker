@@ -1,6 +1,6 @@
 ---
 # vars file for prod
-src_path: ~/shared_folder
-dest_path: ~/shared_folder
+src_path: /shared_folder
+dest_path: /shared_folder
 prod_server: 51.250.97.57
 build_server: 51.250.22.23

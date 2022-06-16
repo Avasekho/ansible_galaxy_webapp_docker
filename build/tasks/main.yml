@@ -2,6 +2,7 @@
 # tasks file for build
 - name: Build maven container
   docker_compose:
+    project_name: maven
     definition:
       version: '3.8'
       services:

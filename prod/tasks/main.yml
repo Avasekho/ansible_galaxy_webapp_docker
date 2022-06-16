@@ -2,6 +2,7 @@
 # tasks file for prod
 - name: Download and install tomcat container
   docker_compose:
+    project_name: tomcat
     definition:
       version: '3.8'
       services:

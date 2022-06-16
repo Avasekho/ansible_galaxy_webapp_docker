@@ -9,4 +9,4 @@
     state: present
 
 - name: Install Docker Module for Python
-  pip: name=docker
+  pip3: name=docker

@@ -15,4 +15,5 @@
         maven:
           build: "/home/avasekho/maven"
           volumes:
-            - '{{ build_server }}':/tmp/shared_folder:/shared_folder:rw
+            - /tmp/shared_folder:/shared_folder:rw
+  delegate_to: '{{ build_server }}'

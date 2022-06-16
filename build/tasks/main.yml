@@ -4,7 +4,7 @@
   docker_compose:
     project_name: maven
     definition:
-      version: '3.8'
+      version: '2'
       services:
         maven:
           build: /files

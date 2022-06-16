@@ -9,10 +9,9 @@
         tomcat:
           image: tomcat:9.0.19-jre8-alpine
           volumes:
-            - /tmp/shared_folder:/usr/local/tomcat/webapps:rw
+            - ~/shared_folder:/usr/local/tomcat/webapps:rw
           ports: 
             - "8080:8080"
-  delegate_to: '{{ prod_server }}'
 
 - name: sync war
   synchronize:

@@ -10,9 +10,9 @@
   docker_compose:
     project_name: maven
     definition:
-      version: '3'
+      version: '3.7'
       services:
         maven:
           build: "/home/avasekho/maven"
           volumes:
-            - "/tmp/shared_folder:/shared_folder:rw"
+            - "/tmp/shared_folder:/shared_folder"

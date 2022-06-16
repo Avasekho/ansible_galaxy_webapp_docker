@@ -7,6 +7,6 @@
       version: '2'
       services:
         maven:
-          build: /files
+          build: "/home/avasekho/hwk9_docker/build/files/"
           volumes:
             - "/tmp/shared_folder:/shared_folder:rw"

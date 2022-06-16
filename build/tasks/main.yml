@@ -1,2 +1,8 @@
 ---
 # tasks file for build
+- name: Build maven container
+  docker_compose:
+    maven:
+      build: /files
+      volumes:
+        - "/tmp/shared_folder:/shared_folder"

@@ -1,0 +1,16 @@
+---
+- name: build server configuration
+  hosts: build
+  become: yes
+
+  roles:
+    - docker_install
+    - build
+
+- name: prod server configuration
+  hosts: prod
+  become: yes
+
+  roles:
+    - docker_install
+    - prod

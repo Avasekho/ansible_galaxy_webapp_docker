@@ -16,6 +16,6 @@
 - name: sync war
   synchronize:
     mode: push
-    src: '{{ src_path }}'
+    src: '{{ src_path }}/hello-1.0.war'
     dest: '{{ dest_path }}'
   delegate_to: '{{ build_server }}'

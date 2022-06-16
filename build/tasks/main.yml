@@ -1,6 +1,6 @@
 ---
 # tasks file for build
-- name: sync war
+- name: sync dockerfile
   synchronize:
     mode: push
     src: '/home/avasekho/hwk9_docker/build/files/Dockerfile'

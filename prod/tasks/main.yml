@@ -2,11 +2,10 @@
 # tasks file for prod
 - name: Download and install tomcat container
   docker_compose:
-    tomcat:
-      image: tomcat:9.0.19-jre8-alpine
-      volumes:
-        - "/tmp/shared_folder:/usr/local/tomcat/webapps"
-      ports: 
+    image: tomcat:9.0.19-jre8-alpine
+    volumes:
+      - "/tmp/shared_folder:/usr/local/tomcat/webapps"
+    ports: 
       - "8080:8080"
 
 - name: sync war

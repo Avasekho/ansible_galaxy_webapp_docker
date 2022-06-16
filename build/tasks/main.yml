@@ -16,3 +16,4 @@
           build: "/home/avasekho/maven"
           volumes:
             - "/tmp/shared_folder:/shared_folder"
+          state: running

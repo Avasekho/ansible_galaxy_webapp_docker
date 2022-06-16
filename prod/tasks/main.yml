@@ -10,6 +10,7 @@
           image: tomcat:9.0.19-jre8-alpine
           volumes:
             - "/tmp/shared_folder:/usr/local/tomcat/webapps"
+          state: running
           ports: 
             - "8080:8080"
 

@@ -8,5 +8,5 @@
       - docker-compose
     state: present
 
-#- name: Install Docker Module for Python
-#  pip: name=docker state=present
+- name: Install Docker Module for Python
+  pip: name=docker

@@ -9,7 +9,7 @@
         tomcat:
           image: tomcat:9.0.19-jre8-alpine
           volumes:
-            - {{ prod_server }}/tmp/shared_folder:/usr/local/tomcat/webapps:rw
+            - '{{ prod_server }}':/tmp/shared_folder:/usr/local/tomcat/webapps:rw
           ports: 
             - "8080:8080"
 
